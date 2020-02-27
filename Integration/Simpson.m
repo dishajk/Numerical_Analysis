@@ -1,0 +1,1 @@
+%Integration%Simpson's Methodclc;clear all;format long;printf("Simpson's Method\n");x(1)=input(" Enter the lower limit: ");b=input("\n Enter the upper limit: ");h =(b-x(1))/2;for i=2:3  x(i)=x(i-1)+h;endforI=0;for j=1:3  c=polyint(l(x,j));  w=polyval(c,b) - polyval(c,x(1));  I = I+w*f(x(j));endforI

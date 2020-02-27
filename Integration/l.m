@@ -1,0 +1,1 @@
+function L = l(x,j)  n = length (x);  y=[1];  for i=1:n    if (i==j)      y=y;    else      y=conv(y,[1,-x(1,i)]/(x(1,j)-x(1,i)));    endif  endfor  L=y;endfunction

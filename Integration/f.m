@@ -1,0 +1,1 @@
+%The finction f(x) is defined in this file. Uncomment the required functionfunction y=f(x)  %y=log10(x);  %y=sqrt(x);  y=x.^2;%y=1-x+x^2+x^3+2*x^4-2*x^5+x^6;endfunction

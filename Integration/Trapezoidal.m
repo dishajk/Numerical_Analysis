@@ -1,0 +1,1 @@
+%Integration%Trapezoidal Methodclc;clear all;format long;printf("Trapezoidal Method\n");x(1)=input(" Enter the lower limit: ");x(2)=input("\n Enter the upper limit: ");I=0;for j=1:2  c=polyint(l(x,j));  w=polyval(c,x(2)) - polyval(c,x(1));  I = I+w*f(x(j));endforI
