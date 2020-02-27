@@ -1,0 +1,1 @@
+%The finction f(x) is defined in this file. Uncomment the required functionfunction y=f(x)  %y=x.^6-x-1;   %y=x.^2+x-3;  %y=3/x;  y=(x+3/x)/2;%y=1-x+x^2+x^3+2*x^4-2*x^5+x^6;%y=sqrt(x);endfunction

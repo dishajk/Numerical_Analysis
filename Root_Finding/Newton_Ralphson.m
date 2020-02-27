@@ -1,0 +1,1 @@
+%Root finding%Newton Ralphson Methodclc;clear all;format long;printf("Newton-Ralphson Method\n");g=input("enter intial guess: "); %Initial guesse=10.^(-14);n=input("number of iterations\n") %Number of iterationsfor i=1:n  p(i)=g-f(g)/df(g);  if(abs(p(i)-g)<e)    break;  else  g=p(i);  endifendforgplot(p)
